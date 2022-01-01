@@ -135,11 +135,28 @@
               Your M.G.D.C Gold-Digger will then be then be free to thanks to the breeding function, your M.G.D.C Gold-Digger to a pack of two babies Apes NFTs.
             </div>
           </div>
+          <img class="bague-1" :src="bague2" />
+          <img class="coin2" :src="coin22" />
+          <img class="coin-1" :src="coin2" />
+          <img class="gold-duck" :src="goldduck" />
+          <img class="coin-2" :src="coin3" />
         </div>
       </div>
 
       <div>
         <div class="join-the-club-1 jumble-regular-normal-white-120px">Join the club</div>
+        <div>
+          Texte à définir. Lorem ipsum derabat Ipsum gitem aredabitur est debanatam. Estatum alea jacta est.
+        </div>
+        <div>
+          Join us on discord
+        </div>
+        <div>
+          <div>
+            <div></div>  
+            Instagram</div>
+          <div>Twitter</div>
+        </div>
       </div>
       <div class="footer">
         <div>
@@ -286,15 +303,9 @@
         <div class="percent-3 jumble-regular-normal-white-55px">{{ percent4 }}</div>
         <div class="percent-4 jumble-regular-normal-white-55px">{{ percent5 }}</div>
         <div class="percent-5 jumble-regular-normal-white-55px">{{ percent6 }}</div>
-        <img class="heelshoe-2" :src="heelshoe3" /><img class="coin-1" :src="coin2" /><img
-          class="coin-2"
-          :src="coin3"
-        /><img class="coin-3" :src="coin4" />
+        <img class="heelshoe-2" :src="heelshoe3" /><img class="coin-3" :src="coin4" />
         <div class="what-are-the-metave jumble-regular-normal-thunderbird-80px" v-html="whatAreTheMetave"></div>
-        <img class="diamond-5" :src="diamond6" /><img class="diamond-6" :src="diamond7" /><img class="diamond-8" :src="diamond9" /><img class="diamond-9" :src="diamond10" /><img
-          class="coin2"
-          :src="coin22"
-        /><img class="redlip-4" :src="redlip5" /><img class="redlip-5" :src="redlip6" /><img
+        <img class="diamond-5" :src="diamond6" /><img class="diamond-6" :src="diamond7" /><img class="diamond-8" :src="diamond9" /><img class="diamond-9" :src="diamond10" /><img class="redlip-4" :src="redlip5" /><img class="redlip-5" :src="redlip6" /><img
           class="redlip-6"
           :src="redlip7"
         /><img class="redlip-7" :src="redlip8" /><img class="redlip-8" :src="redlip9" /><img
@@ -338,10 +349,7 @@
           <div class="groupe-1-1" :style="{ 'background-image': 'url(' + groupe136 + ')' }"></div>
           <div class="groupe-1-1" :style="{ 'background-image': 'url(' + groupe1510 + ')' }"></div>
         </div>
-        <img class="bague-1" :src="bague2" /><img
-          class="gold-duck"
-          :src="goldduck"
-        /><img class="montre-or-2" :src="montreor3" />
+        <img class="montre-or-2" :src="montreor3" />
         <div class="groupe-47" :style="{ 'background-image': 'url(' + groupe47 + ')' }"></div>
         <div class="groupe-62" :style="{ 'background-image': 'url(' + groupe62 + ')' }"></div>
         <div class="groupe-95" :style="{ 'background-image': 'url(' + groupe952 + ')' }"></div>
@@ -1790,6 +1798,7 @@ export default {
 }
 
 .exclusive-reward {
+  position: relative;
   background-image: url('../../img/trac--25@1x.png');
   background-size: 170% 100%;
   -o-object-fit: cover;
@@ -2177,20 +2186,18 @@ export default {
 }
 
 .coin-1 {
-  height: 566px;
-  left: 1791px;
-  object-fit: cover;
+  right: -155px;
   position: absolute;
-  top: 3150px;
-  width: 558px;
+  top: 22%;
+  width: 25%;
 }
 
 .coin-2 {
   height: 157px;
-  left: 1168px;
+  left: 50%;
   object-fit: cover;
   position: absolute;
-  top: 3955px;
+  bottom: 0;
   width: 156px;
 }
 
@@ -2271,12 +2278,11 @@ export default {
 }
 
 .coin2 {
-  height: 187px;
-  left: 199px;
+  left: -5%;
   object-fit: cover;
   position: absolute;
-  top: 3933px;
-  width: 180px;
+  bottom: 5%;
+  width: 10%;
 }
 
 .redlip-4 {
@@ -2502,11 +2508,10 @@ export default {
 }
 
 .bague-1 {
-  height: 352px;
-  left: 555px;
+  left: 15%;
   object-fit: cover;
   position: absolute;
-  top: 4027px;
+  bottom: -220px;
   width: 229px;
 }
 
@@ -2520,12 +2525,10 @@ export default {
 }
 
 .gold-duck {
-  height: 348px;
-  left: 1571px;
-  object-fit: cover;
   position: absolute;
-  top: 3716px;
-  width: 371px;
+  right: 5%;
+  bottom: 10%;
+  width: 20%
 }
 
 .gold-duck-1 {
