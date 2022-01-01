@@ -117,7 +117,16 @@
         </div>
       </div>
       <div class="exclusive-reward">
-        <div class="what-is-the-exclusiv">{{ whatIsTheExclusiv }}</div>
+        <div class="exclusive-reward-title">
+          <img class="diamond-7" :src="diamond8" />
+          <div class="what-is-the-exclusiv">{{ whatIsTheExclusiv }}</div>
+          <img class="diamond-4" :src="diamond5" />
+        </div>
+        
+        <div class="text-1 helveticaneue-regular-normal-black-36px">{{ text1 }}</div>
+        <div class="the-exclusive-reward acme-normal-white-36px" v-html="theExclusiveReward"></div>
+
+        <div class="text-2 helveticaneue-regular-normal-thunderbird-36px">{{ text2 }}</div>
       </div>
  
       <div class="overlap-group11">
@@ -260,13 +269,7 @@
           :src="coin3"
         /><img class="coin-3" :src="coin4" />
         <div class="what-are-the-metave jumble-regular-normal-thunderbird-80px" v-html="whatAreTheMetave"></div>
-        <img
-          class="diamond-4"
-          :src="diamond5"
-        /><img class="diamond-5" :src="diamond6" /><img class="diamond-6" :src="diamond7" /><img
-          class="diamond-7"
-          :src="diamond8"
-        /><img class="diamond-8" :src="diamond9" /><img class="diamond-9" :src="diamond10" /><img
+        <img class="diamond-5" :src="diamond6" /><img class="diamond-6" :src="diamond7" /><img class="diamond-8" :src="diamond9" /><img class="diamond-9" :src="diamond10" /><img
           class="coin2"
           :src="coin22"
         /><img class="redlip-4" :src="redlip5" /><img class="redlip-5" :src="redlip6" /><img
@@ -382,8 +385,7 @@
           class="gold-duck-2"
           :src="goldduck3"
         /><img class="coin-6" :src="coin7" /><img class="heelshoe-3" :src="heelshoe4" />
-        <div class="text-1 helveticaneue-regular-normal-black-36px">{{ text1 }}</div>
-        <div class="text-2 helveticaneue-regular-normal-thunderbird-36px">{{ text2 }}</div>
+
         <div class="text-5 helveticaneue-regular-normal-black-36px">{{ text5 }}</div>
         <div class="text-6 helveticaneue-regular-normal-thunderbird-36px">{{ text6 }}</div>
         <div class="text-7 helveticaneue-regular-normal-thunderbird-36px">{{ text7 }}</div>
@@ -404,8 +406,6 @@
           <div class="trac-container-2"><img class="trac-87" :src="trac87" /><img class="trac-88" :src="trac88" /></div>
         </div>
       </div>
-      <div class="the-exclusive-reward acme-normal-white-36px" v-html="theExclusiveReward"></div> 
-
     </div>
   </div>
 </template>
@@ -1770,13 +1770,18 @@ export default {
 .exclusive-reward {
   background-image: url('../../img/trac--25@1x.png');
   background-size: 170% 100%;
-  padding-top: 250px;
   -o-object-fit: cover;
   object-fit: cover;
+  padding-top: 250px;
   padding-bottom: 250px;
+  padding-left: 10%;
+  padding-right: 30%;
   margin-top: -250px;
   width: 100%;
   z-index: 1;
+}
+.exclusive-reward-title {
+  display: flex;
 }
 
 .rectangle-38 {
@@ -1889,10 +1894,8 @@ export default {
 .what-is-the-exclusiv {
   color: #f49f88;
   font-family: Jumble;
-  font-size: var(--font-size-xl);
+  font-size: 50px;
   font-weight: 400;
-  height: 285px;
-  left: 462px;
   letter-spacing: 0;
   line-height: 74px;
   text-align: center;
@@ -2196,10 +2199,7 @@ export default {
 
 .diamond-4 {
   height: 73px;
-  left: 366px;
   object-fit: cover;
-  position: absolute;
-  top: 3294px;
   width: 83px;
 }
 
@@ -2223,10 +2223,7 @@ export default {
 
 .diamond-7 {
   height: 73px;
-  left: 1581px;
   object-fit: cover;
-  position: absolute;
-  top: 3289px;
   width: 83px;
 }
 
