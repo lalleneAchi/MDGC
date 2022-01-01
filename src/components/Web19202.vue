@@ -131,7 +131,7 @@
           <br><br>
           <div class="d-flex">
             <div class="text-2 helveticaneue-regular-normal-thunderbird-36px">{{ text2 }}</div>
-            <div class="the-exclusive-reward acme-normal-white-36px">
+            <div class="the-exclusive-reward latest acme-normal-white-36px">
               Your M.G.D.C Gold-Digger will then be then be free to thanks to the breeding function, your M.G.D.C Gold-Digger to a pack of two babies Apes NFTs.
             </div>
           </div>
@@ -141,8 +141,132 @@
           <img class="gold-duck" :src="goldduck" />
           <img class="coin-2" :src="coin3" />
         </div>
+        <div class="transparent-house-container">
+          <div class="d-flex">
+            <img class="diamond-5" :src="diamond6" />
+            <div class="who-can-buy-a-gold-digger-nft jumble-regular-normal-thunderbird-80px">
+              Who can buy a Gold-Digger NFT ?
+            </div>
+            <img class="diamond-8" :src="diamond9" />
+          </div>
+
+          <div class="d-flex">
+            <div class="heart-logo helveticaneue-regular-normal-thunderbird-36px">{{ text3 }}</div>
+            <div class="you-are-a-bayc-ow acme-normal-black-36px">
+              You are a B.A.Y.C owner and were not selected among the “369”, however you will be automatically in the whitelist.
+            </div>
+          </div>
+          <br /><br />
+          <div class="d-flex">
+            <div class="pic-logo helveticaneue-regular-normal-black-36px">{{ text4 }}</div>
+            <div class="you-are-a-bayc-ow acme-normal-black-36px">
+              You are a Gold-Digger lover, you will be able to buy a Gold-Digger NFT.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="how-can-use-nft">
+        <div class="how-can-you-use-your-gold-digger-nft">{{ howCanYouUseYourGoldDiggerNft }}</div>
       </div>
 
+      <div class="house-background-container">
+        <section id="what-app">
+          <div class="blur"></div>
+
+          <div class="_container">
+              <div class="title">
+                  <img class="dimond1" :src="require(`../../img/diamond-3@1x.png`)" alt="diamond">
+                  <img :src="require(`../../img/diamond-2@1x.png`)" alt="diamond">
+                  <h1 class="my-0">What are the </h1>   
+              </div>
+              <h1 class="title2 mt-0"> metaverse applications ?  </h1>
+              <p>The M.G.D.C is going to have a dedicated exclusive hangout in <br> Decentraland and Sandbox.</p>            
+          </div>
+          <div class="boxes">
+              <img class="img2" :src="require(`../../img/coin2@1x.png`)" alt="coin2" />
+              <img class="img3" :src="require(`../../img/coin2@1x.png`)" alt="coin2" />
+              <img class="img4" :src="require(`../../img/bague@1x.png`)" alt="bague" />
+              <img class="img5" :src="require(`../../img/goldduck-1@1x.png`)" alt="goldduck" />
+              <img class="img6" :src="require(`../../img/heelshoe@1x.png`)" alt="heelshoe" />
+              <img class="box" :src="require(`../../img/Group 348.png`)" />
+              <div class="box">
+                  <img :src="require(`../../img/Group 19.png`)" alt="" />
+                  <p>We serve champaign to our own real-life gold-diggers.</p>
+              </div>
+              <img class="box" :src="require(`../../img/Group 347.png`)">
+              <div class="box">
+                  <img :src="require(`../../img/Group 19.png`)" alt="" />
+                  <p>We break lose the Die-Hard Gold-Diggers: 10 exclusive and extremely attractive female Apes to random M.G.D.C. owners.</p>
+              </div>
+              <img class="box" :src="require(`../../img/Group 346.png`)" />
+              <div class="box">
+                  <img :src="require(`../../img/Group 19.png`)" alt="" />
+                  <p>We give M.G.D.C Gold-Diggers access to our lands in the Metaverse and we eventually allow the most famous Apes to join and meet with them. It’s your Gold-Digger’s chance to test her skills and attributes to seduce the wealthiest Apes in the Gold-Diggers’ Mansion.</p>
+              </div>
+              <img class="box" :src="require(`../../img/Group 345.png`)" />
+              <div class="box">
+                  <img :src="require(`../../img/Group 19.png`)" alt="" />
+                  <p> We are publishing the “Final Enigma”, a complex riddle which can only be solved through meticulous observation of our website contents, both picture and short film. The first person to solve the enigma will receive a unique Golden Gold-Digger NFT and one real life 24K Gold Gold-Digger Ape statue</p>
+              </div>
+              <img class="box" :src="require(`../../img/Group 341.png`)" />
+              <div class="box">
+                  <img :src="require(`../../img/Group 19.png`)" alt="">
+                  <p>We activate the breeding function to allow our Gold-Diggers to breed with the most notorious Apes. Each M.G.D.C Gold-Digger can give birth to two unique Baby Apes. Both parents’ owners will be attributed one baby each.</p>
+
+
+              </div>
+              <img class="box" :src="require(`../../img/Group 344.png`)" />
+              <div class="box">
+                  <img :src="require(`../../img/Group 19.png`)" alt="">
+                  <p> We celebrate the completion of the roadmap in a last expensive night in Saint-Tropez where all the M.G.D.C community will be invited.</p>
+              </div>
+          </div>
+          <img class="img1" :src="require(`../../img/champagne-singe@1x.png`)" alt="champagne">
+        </section>
+        <section id="our-team">
+            <div class="head">
+                <img :src="require(`../../img/diamond-3@1x.png`)" alt="diamond-2">
+                <h1 class="">Our Team</h1>
+                <img :src="require(`../../img/diamond-2@1x.png`)" alt="diamond-2">
+            </div>
+            <div class="members">
+                <div class="member">
+                    <img :src="require(`../../img/unknown-monkey.png`)" alt="member">
+                    <div>
+                        <h3 class="title">ANTOINE</h3>
+                        <p class="subtitle"><b>CTO</b></p>
+                    </div>
+                </div>
+                <div class="member">
+                    <img :src="require(`../../img/unknown-monkey.png`)" alt="member">
+                    <div>
+                        <h3 class="title">AARON</h3>
+                        <p class="subtitle"><b>CTO</b></p>
+                    </div>
+                </div>
+                <div class="member">
+                    <img :src="require(`../../img/unknown-monkey.png`)" alt="member">
+                    <div>
+                        <h3 class="title">LOUIS</h3>
+                        <p class="subtitle"><b>CTO</b></p>
+                    </div>
+                </div>
+                <div class="member">
+                    <img :src="require(`../../img/unknown-monkey.png`)" alt="member">
+                    <div>
+                        <h3 class="title">BAD GUY</h3>
+                        <p class="subtitle"><b>CTO</b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="images">
+                <img class="img1" :src="require(`../../img/bague@1x.png`)" alt="bague">
+                <img class="img2" :src="require(`../../img/coin2@1x.png`)" alt="coin">
+                <img class="img3" :src="require(`../../img/montreor@1x.png`)" alt="montreor">
+                <img class="img4" :src="require(`../../img/redlip-2@1x.png`)" alt="redlip">
+            </div>
+        </section>
+      </div>
       <div>
         <div class="join-the-club-1 jumble-regular-normal-white-120px">Join the club</div>
         <div>
@@ -280,10 +404,8 @@
         <div class="rectangle-61"></div>
         <img class="trac-1" :src="trac1" />
 
-        <div class="you-are-a-bayc-ow acme-normal-black-36px" v-html="youAreABAYCOw"></div>
-        <div class="who-can-buy-a-gold-digger-nft jumble-regular-normal-thunderbird-80px">
-          {{ whoCanBuyAGoldDiggerNft }}
-        </div>
+
+
         <div class="your-gold-digger-nft acme-normal-white-36px" v-html="yourGoldDiggerNft"></div>
         <div class="how-can-you-use-your-gold-digger-nft">{{ howCanYouUseYourGoldDiggerNft }}</div>
         <div class="the-mgdc-is-going">{{ theMGDCIsGoing }}</div>
@@ -305,7 +427,7 @@
         <div class="percent-5 jumble-regular-normal-white-55px">{{ percent6 }}</div>
         <img class="heelshoe-2" :src="heelshoe3" /><img class="coin-3" :src="coin4" />
         <div class="what-are-the-metave jumble-regular-normal-thunderbird-80px" v-html="whatAreTheMetave"></div>
-        <img class="diamond-5" :src="diamond6" /><img class="diamond-6" :src="diamond7" /><img class="diamond-8" :src="diamond9" /><img class="diamond-9" :src="diamond10" /><img class="redlip-4" :src="redlip5" /><img class="redlip-5" :src="redlip6" /><img
+        <img class="diamond-6" :src="diamond7" /><img class="diamond-9" :src="diamond10" /><img class="redlip-4" :src="redlip5" /><img class="redlip-5" :src="redlip6" /><img
           class="redlip-6"
           :src="redlip7"
         /><img class="redlip-7" :src="redlip8" /><img class="redlip-8" :src="redlip9" /><img
@@ -815,6 +937,9 @@ export default {
   margin-top: -15px;
   margin-right: 30px;
 }
+.how-can-use-nft {
+  background-image: url('../../img/trac - 231x.png');
+}
 .metaverse, .roadmap, .team, .project, .reward-program {
   height: 40px;
   letter-spacing: 0;
@@ -936,7 +1061,14 @@ export default {
   position: relative;
   width: 41px;
 }
-
+.transparent-house-container {
+  background-image: url('../../img/gold-digger-house1x.png');
+  background-size: 100%;
+  padding-top: 300px;
+  padding-left: 40%;
+  padding-right: 10%;
+  padding-bottom: 400px;
+}
 .trac-35 {
   height: 1px;
   left: 40px;
@@ -981,18 +1113,19 @@ export default {
   padding-left: 400px;
   padding-right: 400px;
   padding-bottom: 25%;
+  margin-top: 20px;
 }
 .what-to-expect-from {
   font-family: Jumble;
   color: var(--rusty-red);
-  font-size: 72px;
+  font-size: 77px;
   font-weight: 400;
   letter-spacing: 0;
   line-height: 85px;
   text-align: center;
 }
 .what-to-expect-from.second {
-  margin-bottom: 40px;
+  margin-bottom: 70px;
 }
 .diamond-2, .diamond-3 {
   width: 86px;
@@ -1799,15 +1932,15 @@ export default {
 
 .exclusive-reward {
   position: relative;
-  background-image: url('../../img/trac--25@1x.png');
-  background-size: 170% 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-  padding-top: 250px;
-  padding-bottom: 250px;
+  background-image: url("../../img/trac - 251x.png");
+  background-size: 124% 100%;
+  background-position-x: 30%;
   padding-left: 10%;
   padding-right: 30%;
   margin-top: -250px;
+  padding-top: 500px;
+  padding-bottom: 350px;
+  margin-bottom: -400px;
   width: 100%;
   z-index: 1;
 }
@@ -1924,6 +2057,9 @@ export default {
   letter-spacing: 0;
   line-height: 41px;
 }
+.the-exclusive-reward.latest {
+  margin-bottom: 200px;
+}
 
 .what-is-the-exclusiv {
   color: #f49f88;
@@ -1936,23 +2072,16 @@ export default {
 }
 
 .you-are-a-bayc-ow {
-  height: 337px;
-  left: 1096px;
   letter-spacing: 0;
   line-height: 41px;
-  position: absolute;
-  top: 4364px;
-  width: 835px;
 }
 
 .who-can-buy-a-gold-digger-nft {
   height: 248px;
-  left: 1053px;
   letter-spacing: 0;
   line-height: 93px;
-  position: absolute;
-  top: 4114px;
   width: 830px;
+  text-align: center;
 }
 
 .your-gold-digger-nft {
@@ -1967,16 +2096,12 @@ export default {
 
 .how-can-you-use-your-gold-digger-nft {
   color: var(--white);
-  font-family: var(--font-family-jumble-regular);
+  font-family: Jumble;
   font-size: var(--font-size-xl);
   font-weight: 400;
   height: 248px;
-  left: 462px;
   letter-spacing: 0;
   line-height: 98px;
-  position: absolute;
-  top: 5213px;
-  width: 969px;
 }
 
 .title {
@@ -2003,7 +2128,12 @@ export default {
 .trailer-video-highligh {
   margin-bottom: 40px;
 }
-
+.house-background-container {
+  width: 100%;
+  padding: 64px 64px 200px 64px;
+  background-image: url("../../img/GOLD-DIGGER HOUSE-b2.png");
+  backdrop-filter: blur(20px);
+}
 .the-mgdc-is-going {
   color: var(--black);
   font-family: var(--font-family-acme);
@@ -2151,7 +2281,7 @@ export default {
   -o-object-fit: cover;
   object-fit: cover;
   position: absolute;
-  top: 32%;
+  top: 42%;
   width: 585px;
   z-index: 500;
 }
@@ -2170,7 +2300,7 @@ export default {
   -o-object-fit: cover;
   object-fit: cover;
   position: absolute;
-  top: 250px;
+  top: 200px;
   width: 529px;
   z-index: 4000;
 }
@@ -2197,7 +2327,7 @@ export default {
   left: 50%;
   object-fit: cover;
   position: absolute;
-  bottom: 0;
+  bottom: 13%;
   width: 156px;
 }
 
@@ -2237,10 +2367,6 @@ export default {
 
 .diamond-5 {
   height: 73px;
-  left: 940px;
-  object-fit: cover;
-  position: absolute;
-  top: 4152px;
   width: 83px;
 }
 
@@ -2261,10 +2387,6 @@ export default {
 
 .diamond-8 {
   height: 73px;
-  left: 1845px;
-  object-fit: cover;
-  position: absolute;
-  top: 4145px;
   width: 83px;
 }
 
@@ -2281,7 +2403,7 @@ export default {
   left: -5%;
   object-fit: cover;
   position: absolute;
-  bottom: 5%;
+  bottom: 12%%;
   width: 10%;
 }
 
@@ -2487,7 +2609,7 @@ export default {
   left: -185px;
   object-fit: cover;
   position: absolute;
-  top: 250px;
+  top: 120px;
   width: 465px;
 }
 
@@ -2511,7 +2633,7 @@ export default {
   left: 15%;
   object-fit: cover;
   position: absolute;
-  bottom: -220px;
+  bottom: 0px;
   width: 229px;
 }
 
@@ -2527,15 +2649,15 @@ export default {
 .gold-duck {
   position: absolute;
   right: 5%;
-  bottom: 10%;
-  width: 20%
+  bottom: 23%;
+  width: 15%
 }
 
 .gold-duck-1 {
   left: 100px;
   object-fit: cover;
   position: absolute;
-  top: 800px;
+  top: 725px;
   width: 203px;
 }
 
@@ -3647,5 +3769,331 @@ export default {
     width: 195px;
     right: 25px;
   }
+}
+:root{
+    --primary:#E26437;
+    --primary-100:#e53261;
+    --primary-200:#D24756;
+    --primary-300:#B83374;
+    --primary-400:#9D3681;
+
+    --font-family-jumble: "Jumble";
+}
+#our-team{
+  padding: 64px;
+  position: relative;
+  width: 100%;
+}
+#our-team h1, #our-team h3{
+    font-family: var(--font-family-jumble);
+}
+#our-team .head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#our-team .head img {
+	width: calc(32px + 2.7vw);
+}
+#our-team .head h1 {
+	margin: 0 24px;
+	color: var(--primary-100);
+	font-size: calc(1.2rem + 3.5vw);
+	font-weight: lighter;
+}
+#our-team .member img{
+    width: 100%;
+}
+#our-team .member >div{
+    padding:  8px;
+}
+#our-team .member p{
+    font-size: calc(0.8rem + 0.8vw);
+}
+#our-team .member h3{
+    font-weight: lighter;
+    font-size: calc(0.9rem + 0.9vw);
+}
+#our-team .member p,#our-team .member h3{
+    margin: 0 0 ;
+}
+
+#our-team .member:nth-of-type(1) *{color: var(--primary-100);}
+#our-team .member:nth-of-type(2) *{color: var(--primary-200);}
+#our-team .member:nth-of-type(3) *{color: var(--primary-300);}
+#our-team .member:nth-of-type(4) *{color: var(--primary-400);}
+
+#our-team .member{
+    margin: 16px 4px;
+    width: 18vw;
+    max-width: 385px;
+}
+#our-team .members{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#our-team .images img{
+    position: absolute;
+}
+#our-team .images .img1 {
+	bottom: -14vw;
+	left: 45%;
+	width: 9vw;
+	max-width: 125px;
+	min-width: 45px;
+}
+#our-team .images .img2 {
+	bottom: -15vw;
+	left: -5vw;
+	max-width: 250px;
+	min-width: 100px;
+	width: 19vw;
+}
+#our-team .images .img3 {
+	bottom: -20vw;
+	right: -7vw;
+	max-width: 370px;
+	min-width: 130px;
+    width: 25vw;
+    transform: rotate(-27deg);
+}
+#our-team .images .img4{
+    top: 5%;
+    left: -3%;
+    max-width: 270px;
+    min-width: 90px;
+    width: 20vw;
+    transform: scale(-1,1);
+}
+
+@media (max-width: 576px){
+    #our-team{
+        padding: 32px;
+    }
+    #our-team .member{
+        width: 35vw;
+    }
+    #our-team .members{
+        flex-wrap: wrap;
+    }
+    #our-team .images .img4{
+        display: none;
+    }
+}
+
+:root{
+    --primary:#E26437;
+    --primary-50: #e53261;
+    --primary-100:#e53261;
+    --primary-200:#D24756;
+    --primary-300:#B83374;
+    --primary-400:#9D3681;
+    --primary-450:#993783;
+
+    --font-family-jumble: "Jumble", Helvetica;
+    --font-family-jaapokki-regular: "Jaapokki-Regular", Helvetica;
+    --font-family-acme: "Acme", Helvetica;
+
+    --blur-amount: blur(15px);
+}
+*{
+    
+    box-sizing: border-box;
+}
+
+/* CAN BE USED GLOBALLY */
+    ._container h1{
+        font-family: var(--font-family-jumble) ;
+        font-size: calc(2vw + 1.5rem);
+        font-weight: lighter;
+        color: var(--primary-50);
+    }
+    ._container{
+        z-index: 2;
+        position: relative;
+    }
+    ._container p{
+        font-weight: bolder;
+        color: black;  
+        font-size: calc(0.8rem + 0.6vw);
+    }
+    .my-0{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .mt-0{
+        margin-top: 0;
+    }
+    .mb-0{
+        margin-bottom: 0;
+    }
+
+/* END GLOBALS */
+
+#what-app {
+    background-size: cover;
+    padding: 96px;
+}
+#what-app ._container h1.title2{
+    margin-bottom: 16px;
+    white-space: nowrap;
+}
+#what-app .title{
+    position: relative;
+    display: inline-block;
+}
+
+#what-app .title img{
+    width: calc(24px + 2vw);
+}
+#what-app .title img:first-of-type{
+    position: absolute;
+    right: -64px;
+    top: calc(7px + 1vw);
+}
+#what-app .title img:last-of-type{
+    position: absolute;
+    left: -64px;
+    top: calc(7px + 1vw);
+}
+
+#what-app .boxes{
+    position: relative;
+    z-index: 2;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 160px;
+}
+#what-app .boxes .box{
+    background: white;
+    margin: 8px 0; 
+    border-radius: 16px;
+}
+#what-app .boxes img.box{
+    width: 45vw;
+}
+#what-app .boxes div.box{
+    width: 80%;
+    margin-left: auto;
+    background: var(--primary-450);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+#what-app .boxes div.box p{
+    flex-grow: 1;
+    margin: 0;
+    color: white;
+    font-family: var(--font-family-acme);
+    font-size: calc(0.8rem + 0.8vw);
+}
+#what-app .boxes div.box img{
+    width: 20px;
+    margin: 0 24px 0 12px; 
+}
+
+#what-app .floats{
+    
+}
+#what-app .img1 {
+	position: absolute;
+	top: 5%;
+	right: -1%;
+	height: 40vw;
+}
+#what-app .img2 {
+	position: absolute;
+	top: calc(-8vw + -30px);
+	right: 50%;
+	width: 8vw;
+	min-width: 80px;
+	max-width: 130px;
+}
+#what-app .img3 {
+	position: absolute;
+	bottom: 14%;
+	left: calc(-8vw + -2%);
+	width: 10vw;
+	min-width: 100px;
+	max-width: 200px;
+}
+#what-app .img4 {
+	position: absolute;
+	top: 40%;
+	right: calc(-10vw + -4%);
+	width: 7vw;
+	min-width: 100px;
+	max-width: 200px;
+}
+#what-app .img5 {
+	position: absolute;
+	bottom: -5%;
+	right: calc(-10vw + -4%);
+	width: 10vw;
+	min-width: 100px;
+	max-width: 200px;
+}
+#what-app .img6 {
+	position: absolute;
+	top: 18%;
+	left: calc(-8vw + -2%);
+	width: 8vw;
+	min-width: 100px;
+	max-width: 200px;
+}
+
+@media (max-width: 768px){
+    #what-app {
+        padding: 16px;
+    
+    }
+    #what-app .img3,
+    #what-app .img4,
+    #what-app .img5
+    {
+        display: none;
+    }
+
+}
+@media (max-width: 576px){
+    #what-app .img2 {
+        top: calc(-16vw + -30px);
+        right: 20%;
+    }
+    body #what-app ._container{
+        text-align: center;
+    }
+    body #what-app .boxes {
+        width: 100%;
+      }
+    body #what-app .boxes .box:nth-child(n){
+        width: 100%;
+    }
+   
+    
+    #what-app .boxes p {
+        font-size: 0.7rem;
+    }
+    #what-app .boxes .box:nth-child(2n) {
+        width: 90%;
+    }
+    #what-app .img1 {
+        position: relative;
+        height: 50vw;
+        float: right;
+        margin-top: 24px;
+    }
+    #what-app .img6 {
+        position: absolute;
+        
+        top: 105%;
+        left: 0;
+        width: 40vw;
+        min-width: 100px;
+        max-width: 200px;
+        transform: scale(-1,1);
+    }
 }
 </style>

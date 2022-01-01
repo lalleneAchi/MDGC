@@ -5,8 +5,9 @@
   font-family: "Jaapokki-Regular";
   font-style: normal;
   font-weight: 400;
-  src: url("https://anima-uploads.s3.amazonaws.com/5c4dfe2eaa0792000bc6e708/Jaapokki-Regular.otf") format("opentype");
+  src: url("./fonts/Jaapokki-Regular.otf") format("opentype");
 }
+@import url("https://fonts.googleapis.com/css?family=Acme:400");
 @font-face {
   font-family: "HelveticaNeue-Regular";
   font-style: normal;

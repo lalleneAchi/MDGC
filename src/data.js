@@ -96,7 +96,7 @@ export const web19202Data = {
     theExclusiveReward: "",
     whatIsTheExclusiv: "What is the exclusive reward program for B.A.Y.C NFT owners ?",
     youAreABAYCOw: "You are a B.A.Y.C owner and were not selected among the “369”, however you will be automatically in the whitelist. <br /><br />You are a Gold-Digger lover, you will be able to buy a Gold-Digger NFT.",
-    whoCanBuyAGoldDiggerNft: "Who can buy a Gold-Digger NFT ?",
+    whoCanBuyAGoldDiggerNft: "",
     yourGoldDiggerNft: "Your Gold-Digger NFT represents a unique gateway to the metaverse. <br /><br />If you want to go further, get your Gold Digger to the test and search for a notorious Ape to dig on. <br /><br />Once the breeding function is activated, your sugar daddy and his owner are willing and ready to mate, you can use the breeding function to make children. <br /><br />For each breeding function activated, both the M.G.D.C. and Male Ape owners will receive one child each relying on the Ethereum blockchain.<br /><br />If the rarity rating of the B.A.Y.C and the M.G.D.C. correspond they will receive two children each.<br /><br />Once you have created your family you and your Gold-Digger can get back to your lavish and glittery metaverse fast life.",
     howCanYouUseYourGoldDiggerNft: "How can you use your Gold-Digger NFT ?",
     title: "TRAILER VIDEO",
