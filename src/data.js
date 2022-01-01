@@ -93,7 +93,7 @@ export const web19202Data = {
     rectangle142: "https://anima-uploads.s3.amazonaws.com/projects/61c788955a8859d01ef241e7/releases/61c8a4db56894069aa423a08/img/rectangle-14-1@1x.png",
     byOwningOneOfThe: "By owning one of these 10,000 NFTs, you’ll be offered multiple opportunities: You’ll be able to live in a metaverse through the eyes of your Gold-Digger, rubbing shoulders with some of the most famous Apes, bating and digging-on them thanks to your Gold-Digger’s charming and unique attributes. <br /><br />Then, by activating the breeding function with your sugar monkey, you will be able to give birth to a new Ape, enjoy your family life and be set for good.",
     whatToExpectFrom: "What to expect from your Gold-Digger NFT ?",
-    theExclusiveReward: "The exclusive reward program is dedicated to B.A.Y.C NFT owners. The first 369 B.A.Y.C owners to join the program will be granted a free M.G.D.C Gold-Digger to tag along with his own Ape and dig on him as you will. <br /><br />Your M.G.D.C Gold-Digger will then be then be free to thanks to the breeding function, your M.G.D.C Gold-Digger to a pack of two babies Apes NFTs.",
+    theExclusiveReward: "",
     whatIsTheExclusiv: "What is the exclusive reward program for B.A.Y.C NFT owners ?",
     youAreABAYCOw: "You are a B.A.Y.C owner and were not selected among the “369”, however you will be automatically in the whitelist. <br /><br />You are a Gold-Digger lover, you will be able to buy a Gold-Digger NFT.",
     whoCanBuyAGoldDiggerNft: "Who can buy a Gold-Digger NFT ?",

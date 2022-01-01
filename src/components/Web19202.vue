@@ -124,12 +124,18 @@
         </div>
         
         <div class="text-1 helveticaneue-regular-normal-black-36px">{{ text1 }}</div>
-        <div class="the-exclusive-reward acme-normal-white-36px" v-html="theExclusiveReward"></div>
-
+        <div class="the-exclusive-reward acme-normal-white-36px">
+          The exclusive reward program is dedicated to B.A.Y.C NFT owners. The first 369 B.A.Y.C owners to join the program will be granted a free M.G.D.C Gold-Digger to tag along with his own Ape and dig on him as you will.
+        </div>
+        <br><br>
         <div class="text-2 helveticaneue-regular-normal-thunderbird-36px">{{ text2 }}</div>
+        <div class="the-exclusive-reward acme-normal-white-36px">
+          Your M.G.D.C Gold-Digger will then be then be free to thanks to the breeding function, your M.G.D.C Gold-Digger to a pack of two babies Apes NFTs.
+        </div>
       </div>
- 
-      <div class="overlap-group11">
+
+      <img class="footer" :src="require(`../../img/footer.png`)" />
+      <!-- <div class="overlap-group11">
         <img class="gold-digger-house-1" :src="require(`../../img/gold-digger-house@1x.png`)" />
         <img class="gold-digger-house-2" :src="require(`../../img/gold-digger-house-1@1x.png`)"
         /><img class="trac-23" :src="trac23" />
@@ -404,8 +410,8 @@
         <div class="texte-dfinir-lor acme-normal-white-40px">{{ texteDfinirLor }}</div>
         <div class="groupe-195" :style="{ 'background-image': 'url(' + groupe195 + ')' }">
           <div class="trac-container-2"><img class="trac-87" :src="trac87" /><img class="trac-88" :src="trac88" /></div>
-        </div>
-      </div>
+        </div> -->
+      <!-- </div> -->
     </div>
   </div>
 </template>
@@ -694,7 +700,6 @@ export default {
   background-color: var(--white);
   display: flex;
   flex-direction: column;
-  height: 14488px;
   overflow: hidden;
   position: relative;
   width: 100%;
@@ -3404,7 +3409,11 @@ export default {
   top: 0;
   width: 5px;
 }
-
+.footer {
+  width: 100%;
+  margin-top: -100px;
+  z-index: 3;
+}
 
 @media screen and (max-width: 1700px) {
   .metaverse, .roadmap, .team, .project, .reward-program {
