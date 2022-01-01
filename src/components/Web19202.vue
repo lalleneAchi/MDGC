@@ -810,9 +810,7 @@ export default {
 }
 
 .gold-digger-house {
-  height: 1200px;
   margin-top: 90px;
-  object-fit: cover;
   width: 100%;
   z-index: 2;
 }
