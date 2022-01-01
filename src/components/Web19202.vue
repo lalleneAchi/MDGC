@@ -1775,6 +1775,7 @@ export default {
   object-fit: cover;
   padding-bottom: 250px;
   margin-top: -250px;
+  width: 100%;
   z-index: 1;
 }
 
