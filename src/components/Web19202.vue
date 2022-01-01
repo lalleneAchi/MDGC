@@ -134,7 +134,19 @@
         </div>
       </div>
 
-      <img class="footer" :src="require(`../../img/footer.png`)" />
+      <div>
+        <div class="join-the-club-1 jumble-regular-normal-white-120px">Join the club</div>
+      </div>
+      <div class="footer">
+        <div>
+          <img class="footer-montre" :src="require(`../../img/montreor@1x.png`)" />
+          <img class="footer-logo" :src="require(`../../img/mdgc-logo.png`)" />
+          <img class="footer-redlip" :src="require(`../../img/redlip-1@1x.png`)" />
+        </div>
+        <div class="footer-terms">Terms & Conditions</div>
+
+        <div class="footer-rights">MGDC - All Rights Reserved 2022</div>
+      </div>
       <!-- <div class="overlap-group11">
         <img class="gold-digger-house-1" :src="require(`../../img/gold-digger-house@1x.png`)" />
         <img class="gold-digger-house-2" :src="require(`../../img/gold-digger-house-1@1x.png`)"
@@ -3353,13 +3365,9 @@ export default {
 
 .join-the-club-1 {
   height: 207px;
-  left: 835px;
   letter-spacing: 0;
   line-height: 70px;
-  position: absolute;
   text-align: center;
-  top: 11966px;
-  width: 873px;
 }
 
 .texte-dfinir-lor {
@@ -3410,11 +3418,46 @@ export default {
   width: 5px;
 }
 .footer {
+  position: relative;
+  text-align: center;
   width: 100%;
   margin-top: -100px;
   z-index: 3;
+  background: linear-gradient(
+180deg, #e56932 0%, #c5316e 45.81%, #993783 100%);
+  background-size: 100%;
 }
-
+.footer-logo {
+  margin-top: 50px;
+    width: 300px;
+}
+.footer-terms {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Acme", Helvetica;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.footer-rights {
+  font-weight: bold;
+  font-family: "Acme", Helvetica;
+  color: white;
+  font-size: 16px;
+  margin-bottom: 80px;
+}
+.footer-montre {
+  position: absolute;
+  top: -100px;
+  width: 380px;
+  left: 55px;
+}
+.footer-redlip {
+  position: absolute;
+  top: -100px;
+  width: 340px;
+  right: 55px;
+}
 @media screen and (max-width: 1700px) {
   .metaverse, .roadmap, .team, .project, .reward-program {
     font-size: smaller;
@@ -3585,6 +3628,25 @@ export default {
   }
   .nft-container {
     top: -50px;
+  }
+  .footer-rights {
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 80px;
+  }
+  .footer-logo {
+    width: 200px;
+  }
+  .footer-montre {
+    top: -100px;
+    width: 244px;
+    left: -18px;
+  }
+  .footer-redlip {
+    top: -100px;
+    width: 195px;
+    right: 25px;
   }
 }
 </style>
