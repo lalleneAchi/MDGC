@@ -115,22 +115,26 @@
             <div class="join-us-on-discord-1">{{ joinUsOnDiscord2 }}</div>
           </div>
         </div>
-      </div>
-      <div class="exclusive-reward">
-        <div class="exclusive-reward-title">
-          <img class="diamond-7" :src="diamond8" />
-          <div class="what-is-the-exclusiv">{{ whatIsTheExclusiv }}</div>
-          <img class="diamond-4" :src="diamond5" />
-        </div>
-        
-        <div class="text-1 helveticaneue-regular-normal-black-36px">{{ text1 }}</div>
-        <div class="the-exclusive-reward acme-normal-white-36px">
-          The exclusive reward program is dedicated to B.A.Y.C NFT owners. The first 369 B.A.Y.C owners to join the program will be granted a free M.G.D.C Gold-Digger to tag along with his own Ape and dig on him as you will.
-        </div>
-        <br><br>
-        <div class="text-2 helveticaneue-regular-normal-thunderbird-36px">{{ text2 }}</div>
-        <div class="the-exclusive-reward acme-normal-white-36px">
-          Your M.G.D.C Gold-Digger will then be then be free to thanks to the breeding function, your M.G.D.C Gold-Digger to a pack of two babies Apes NFTs.
+        <div class="exclusive-reward">
+          <div class="exclusive-reward-title">
+            <img class="diamond-7" :src="diamond8" />
+            <div class="what-is-the-exclusiv">{{ whatIsTheExclusiv }}</div>
+            <img class="diamond-4" :src="diamond5" />
+          </div>
+          
+          <div class="d-flex">
+            <div class="text-1 helveticaneue-regular-normal-black-36px">{{ text1 }}</div>
+            <div class="the-exclusive-reward acme-normal-white-36px">
+              The exclusive reward program is dedicated to B.A.Y.C NFT owners. The first 369 B.A.Y.C owners to join the program will be granted a free M.G.D.C Gold-Digger to tag along with his own Ape and dig on him as you will.
+            </div>
+          </div>
+          <br><br>
+          <div class="d-flex">
+            <div class="text-2 helveticaneue-regular-normal-thunderbird-36px">{{ text2 }}</div>
+            <div class="the-exclusive-reward acme-normal-white-36px">
+              Your M.G.D.C Gold-Digger will then be then be free to thanks to the breeding function, your M.G.D.C Gold-Digger to a pack of two babies Apes NFTs.
+            </div>
+          </div>
         </div>
       </div>
 
@@ -707,6 +711,9 @@ export default {
 </script>
 
 <style>
+.d-flex {
+  display: flex;
+}
 .web-1920-2 {
   align-items: flex-end;
   background-color: var(--white);
@@ -1797,6 +1804,9 @@ export default {
 }
 .exclusive-reward-title {
   display: flex;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 50px;
 }
 
 .rectangle-38 {
@@ -1909,10 +1919,10 @@ export default {
 .what-is-the-exclusiv {
   color: #f49f88;
   font-family: Jumble;
-  font-size: 50px;
+  font-size: 48px;
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 74px;
+  line-height: 52px;
   text-align: center;
 }
 
@@ -2439,7 +2449,7 @@ export default {
   padding: 50px 20px;
   display: flex;
   width: 60%;
-  margin: 50px auto 150px auto;
+  margin: 50px auto 0px auto;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -3180,24 +3190,12 @@ export default {
   width: 256px;
 }
 
-.text-1 {
+.text-1, .text-2 {
   height: 51px;
-  left: 452px;
   letter-spacing: 0;
   line-height: 36px;
-  position: absolute;
-  top: 3556px;
   width: 40px;
-}
-
-.text-2 {
-  height: 51px;
-  left: 452px;
-  letter-spacing: 0;
-  line-height: 36px;
-  position: absolute;
-  top: 3720px;
-  width: 40px;
+  margin-right: 15px;
 }
 
 .heart-logo {
